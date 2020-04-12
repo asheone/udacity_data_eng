@@ -3,8 +3,6 @@ import glob
 import psycopg2
 import pandas as pd
 from sql_queries import *
-from goodtables import Inspector
-import pprint
 
 def process_song_file(cur, filepath):
     """
